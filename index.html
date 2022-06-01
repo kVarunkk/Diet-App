@@ -7,7 +7,7 @@
     <title>DIET APP</title>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Asset&family=Dosis&family=Lato&family=Martel+Sans:wght@200&family=Montserrat&family=Oswald&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,400;1,900&family=Roboto:ital,wght@0,300;1,300&family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Asset&family=Dosis&family=Lato&family=Martel+Sans:wght@200&family=Montserrat&family=Oswald&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,400;1,900&family=Roboto:ital,wght@0,300;1,300&family=Satisfy&display=swap');
     </style> 
 
     <link rel="stylesheet" href="style.css">
@@ -25,13 +25,26 @@
             DIET APP
         </div>
 
+        <div class="intro">
+            <div class="intro-text">
+                <ul>
+                    <li>Healthy Life is just 1 click away!</li>
+                    <li>Absolutely Free</li>
+                    <li>See <a class="source" href="https://github.com/kVarunkk/Diet-App/tree/master" target="_blank">Source Code</a></li>
+                </ul>
+            </div>
+            <div class="intro-image">
+                <img src="health-img.png">
+            </div>
+        </div>
+
         <form > 
             
             <div class="form-wrap">
-                <input class="name" type="text" placeholder="Name" required>
-            <input class="age" type="number" placeholder="Age" required>
-            <input class="height" type="number" placeholder="Height (cm)" required>
-            <input class="weight" type="number" placeholder="Weight (Kg)" required>
+                <input class="name" type="text" placeholder="Name*" required>
+            <input class="age" type="number" placeholder="Age" >
+            <input class="height" type="number" placeholder="Height* (cm)" required>
+            <input class="weight" type="number" placeholder="Weight* (Kg)" required>
 
             <label for="foods">Choose your Food Options:</label>
             <select id="foods" name="foods" required>
