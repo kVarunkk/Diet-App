@@ -19,6 +19,7 @@ form.addEventListener('submit', (e) => {
     handleSubmit(e);
     bmiCalculator();
     diseaseFoodAndBMI();
+    scrollWin();
 })
 
 
@@ -181,6 +182,9 @@ function diseaseFoodAndBMI() {
 
 
 
+function scrollWin() {
+    window.scrollBy(0, 250);
+}
 
 
 
