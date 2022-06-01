@@ -146,15 +146,14 @@ label{
     justify-content: center;
 }
 
-.intro-image{
-    
-}
-
 ul{
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Alegreya Sans SC', sans-serif;
     margin-top: 100px;
+    background-color: rgba(218, 250, 215, 0.666);
+    padding: 25px 35px;
+    border: solid 3px black;
 }
 
 li{
@@ -170,6 +169,21 @@ ul a{
     color: black;
 }
 
+.preloader {
+    align-items: center;
+    background: #FFF;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.2s linear;
+    width: 100%;
+    z-index: 9999;
+    opacity: 1;
+    transform: opacity 1s linear;
+  }
 
 
 
@@ -185,16 +199,14 @@ ul a{
         gap: 50px;
     }
 
-    .intro-text{
-        text-align: center;
-    }
-
     ul{
         margin-top: 0px;
         font-size: 1.2rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 15px;
+        /* padding-left: 0; */
     }
 
     .intro-image{
@@ -241,6 +253,19 @@ ul a{
     
     body{
         background-attachment:scroll;
+    }
+
+    .intro{
+        /* width: 90%; */
+        gap: 100px;
+    }
+
+    ul{
+        margin-left: 20px;
+    }
+
+    .intro-image img{
+        margin-right: 20px;
     }
 
     .submit{
