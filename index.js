@@ -12,6 +12,25 @@ var newDiv2 = document.createElement('div');
 
 
 
+//preloader
+
+const preloader = document.querySelector('.preloader');
+
+const fadeOutEffect = setInterval(() => {
+    if (!preloader.style.opacity) {
+      preloader.style.opacity = 1;
+    }
+    if (preloader.style.opacity > 0) {
+      preloader.style.opacity -= 0.2;
+      preloader.style.display = 'none'
+    } 
+  }, 500);
+
+
+
+
+
+
 
 form.addEventListener('submit', (e) => {
     finalWrapper.style.display = 'block';
