@@ -2,6 +2,7 @@ var submit = document.querySelector('.submit');
 var greet = document.querySelector('.greet');
 var bmiDiv = document.querySelector('.bmi');
 var form = document.querySelector('form');
+var chart = document.querySelector('.chart');
 
 var finalWrapper = document.querySelector('.final-wrapper')
 
@@ -9,7 +10,7 @@ var bmi;
 
 var newDiv1 = document.createElement('div');
 var newDiv2 = document.createElement('div');
-
+var newDiv3 = document.createElement('div');
 
 
 //preloader
@@ -81,9 +82,15 @@ function diseaseFoodAndBMI() {
     //under, veg
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'Diabetes') {
         console.log('Succsess1');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="https://github.com/kVarunkk/Diet-App/tree/master" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'Hypertension') {
         console.log('Succsess2');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="#" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'Thyroid') {
         console.log('Succsess3');
