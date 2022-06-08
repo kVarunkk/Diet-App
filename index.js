@@ -28,11 +28,6 @@ const fadeOutEffect = setInterval(() => {
   }, 500);
 
 
-
-
-
-
-
 form.addEventListener('submit', (e) => {
     finalWrapper.style.display = 'block';
     playAudio();
