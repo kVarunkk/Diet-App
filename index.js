@@ -77,9 +77,9 @@ function diseaseFoodAndBMI() {
     //under, veg
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'Diabetes') {
         console.log('Succsess1');
-        newDiv3.classList.add('div3');
-        chart.append(newDiv3);
-        newDiv3.innerHTML = '<a class="diet-btn" href="https://github.com/kVarunkk/Diet-App/tree/master" download">Download</a>';
+        // newDiv3.classList.add('div3');
+        // chart.append(newDiv3);
+        // newDiv3.innerHTML = '<a class="diet-btn" href="DIABETES DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'Hypertension') {
         console.log('Succsess2');
@@ -103,15 +103,24 @@ function diseaseFoodAndBMI() {
     //under, non-veg
     if (condition === 'Underweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Diabetes') {
         console.log('Succsess11');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="DIABETES DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Hypertension') {
         console.log('Succsess12');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="HYPERTENSION DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Thyroid') {
         console.log('Succsess13');
     }
     if (condition === 'Underweight' && foodName === 'Non-Vegeterian' && diseaseName === 'PCOD') {
         console.log('Succsess14');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="PCOD DIET.pdf" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Anemia') {
         console.log('Succsess15');
@@ -143,15 +152,24 @@ function diseaseFoodAndBMI() {
     //normal, non-veg
     if (condition === 'Healthy' && foodName === 'Non-Vegeterian' && diseaseName === 'Diabetes') {
         console.log('Succsess1111');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="DIABETES DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Healthy' && foodName === 'Non-Vegeterian' && diseaseName === 'Hypertension') {
         console.log('Succsess1112');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="HYPERTENSION DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Healthy' && foodName === 'Non-Vegeterian' && diseaseName === 'Thyroid') {
         console.log('Succsess1113');
     }
     if (condition === 'Healthy' && foodName === 'Non-Vegeterian' && diseaseName === 'PCOD') {
         console.log('Succsess1114');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="PCOD DIET.pdf" download">Download</a>';
     }
     if (condition === 'Healthy' && foodName === 'Non-Vegeterian' && diseaseName === 'Anemia') {
         console.log('Succsess1115');
@@ -183,15 +201,24 @@ function diseaseFoodAndBMI() {
     //over, non-veg
     if (condition === 'Overweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Diabetes') {
         console.log('Succsess111111');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="DIABETES DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Overweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Hypertension') {
         console.log('Succsess111112');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="HYPERTENSION DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Overweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Thyroid') {
         console.log('Succsess111113');
     }
     if (condition === 'Overweight' && foodName === 'Non-Vegeterian' && diseaseName === 'PCOD') {
         console.log('Succsess111114');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="PCOD DIET.pdf" download">Download</a>';
     }
     if (condition === 'Overweight' && foodName === 'Non-Vegeterian' && diseaseName === 'Anemia') {
         console.log('Succsess111115');
