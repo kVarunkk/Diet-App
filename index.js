@@ -25,7 +25,7 @@ const fadeOutEffect = setInterval(() => {
       preloader.style.opacity -= 0.2;
       preloader.style.display = 'none'
     } 
-  }, 500);
+  }, 1100);
 
 
 form.addEventListener('submit', (e) => {
@@ -77,9 +77,6 @@ function diseaseFoodAndBMI() {
     //under, veg
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'Diabetes') {
         console.log('Succsess1');
-        // newDiv3.classList.add('div3');
-        // chart.append(newDiv3);
-        // newDiv3.innerHTML = '<a class="diet-btn" href="DIABETES DIET(1).pdf" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'Hypertension') {
         console.log('Succsess2');
