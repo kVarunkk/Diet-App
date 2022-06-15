@@ -101,7 +101,9 @@ function diseaseFoodAndBMI() {
         newDiv3.innerHTML = '<a class="diet-btn" href="ANEMIA-WG.pdf" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Vegeterian' && diseaseName === 'None') {
-        console.log('Succsess6');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="WEIGHTGAIN-V(1).pdf" download">Download</a>';
     }
 
     //under, non-veg
@@ -131,7 +133,9 @@ function diseaseFoodAndBMI() {
         newDiv3.innerHTML = '<a class="diet-btn" href="ANEMIA DIET(2).pdf" download">Download</a>';
     }
     if (condition === 'Underweight' && foodName === 'Non-Vegeterian' && diseaseName === 'None') {
-        console.log('Succsess16');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="WEIGHTGAIN-N.pdf" download">Download</a>';
     }
 
     //normal, veg
@@ -161,7 +165,9 @@ function diseaseFoodAndBMI() {
         newDiv3.innerHTML = '<a class="diet-btn" href="ANEMIA-WG.pdf" download">Download</a>';
     }
     if (condition === 'Healthy' && foodName === 'Vegeterian' && diseaseName === 'None') {
-        console.log('Succsess116');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="HEALHY DIET-V.pdf" download">Download</a>';
     }
 
     //normal, non-veg
@@ -193,7 +199,7 @@ function diseaseFoodAndBMI() {
     if (condition === 'Healthy' && foodName === 'Non-Vegeterian' && diseaseName === 'None') {
         newDiv3.classList.add('div3');
         chart.append(newDiv3);
-        newDiv3.innerHTML = '<a class="diet-btn" href="PCOD DIET(2).pdf" download">Download</a>';
+        newDiv3.innerHTML = '<a class="diet-btn" href="NORMAL WEIGHT-N.pdf" download">Download</a>';
     }
 
     //over, veg
@@ -223,7 +229,9 @@ function diseaseFoodAndBMI() {
         newDiv3.innerHTML = '<a class="diet-btn" href="ANEMIA-WL.pdf" download">Download</a>';
     }
     if (condition === 'Overweight' && foodName === 'Vegeterian' && diseaseName === 'None') {
-        console.log('Succsess11116');
+        newDiv3.classList.add('div3');
+        chart.append(newDiv3);
+        newDiv3.innerHTML = '<a class="diet-btn" href="WEIGHTLOSS-V.pdf" download">Download</a>';
     }
 
     //over, non-veg
@@ -255,7 +263,7 @@ function diseaseFoodAndBMI() {
     if (condition === 'Overweight' && foodName === 'Non-Vegeterian' && diseaseName === 'None') {
         newDiv3.classList.add('div3');
         chart.append(newDiv3);
-        newDiv3.innerHTML = '<a class="diet-btn" href="PCOD DIET(1).pdf" download">Download</a>';
+        newDiv3.innerHTML = '<a class="diet-btn" href="WEIGHTLOSS-N.pdf" download">Download</a>';
     }
 }
 
