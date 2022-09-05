@@ -81,7 +81,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/DIABETES-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/DIABETES-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -91,7 +91,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/HYPERTENSION-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/HYPERTENSION-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -101,7 +101,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/THYROID-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/THYROID-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -111,7 +111,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/PCOD-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/PCOD-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -121,7 +121,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/ANEMIA-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/ANEMIA-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -131,7 +131,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/WEIGHTGAIN-V(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/WEIGHTGAIN-V(1).pdf" download">Download</a>';
   }
 
   //under, non-veg
@@ -143,7 +143,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/DIABETES DIET(2).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/DIABETES DIET(2).pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -153,7 +153,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/HYPERTENSION DIET(2).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/HYPERTENSION DIET(2).pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -163,7 +163,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/THYROID DIET(2).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/THYROID DIET(2).pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -173,7 +173,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/PCOD DIET(2).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/PCOD DIET(2).pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -183,7 +183,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/ANEMIA DIET(2).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/ANEMIA DIET(2).pdf" download">Download</a>';
   }
   if (
     condition === "Underweight" &&
@@ -193,7 +193,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/WEIGHTGAIN-N.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/WEIGHTGAIN-N.pdf" download">Download</a>';
   }
 
   //normal, veg
@@ -205,7 +205,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/DIABETES-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/DIABETES-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -215,7 +215,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/HYPERTENSION-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/HYPERTENSION-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -225,7 +225,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/THYROID-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/THYROID-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -235,7 +235,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/PCOD-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/PCOD-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -245,7 +245,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/ANEMIA-WG.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/ANEMIA-WG.pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -255,7 +255,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/HEALHY DIET-V.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/HEALHY DIET-V.pdf" download">Download</a>';
   }
 
   //normal, non-veg
@@ -267,7 +267,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/DIABETES DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/DIABETES DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -277,7 +277,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/HYPERTENSION DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/HYPERTENSION DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -287,7 +287,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/THYROID DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/THYROID DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -297,7 +297,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/PCOD DIET.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/PCOD DIET.pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -307,7 +307,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/ANEMIA DIET(2).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/ANEMIA DIET(2).pdf" download">Download</a>';
   }
   if (
     condition === "Healthy" &&
@@ -317,7 +317,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/NORMAL WEIGHT-N.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/NORMAL WEIGHT-N.pdf" download">Download</a>';
   }
 
   //over, veg
@@ -329,7 +329,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/DIABETES-WL.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/DIABETES-WL.pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -339,7 +339,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/HYPERTENSION-WL.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/HYPERTENSION-WL.pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -349,7 +349,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/THYROID-WL.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/THYROID-WL.pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -359,7 +359,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/PCOD-WL.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/PCOD-WL.pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -369,7 +369,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/ANEMIA-WL.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/ANEMIA-WL.pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -379,7 +379,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/WEIGHTLOSS-V.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/WEIGHTLOSS-V.pdf" download">Download</a>';
   }
 
   //over, non-veg
@@ -391,7 +391,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/DIABETES DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/DIABETES DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -401,7 +401,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/HYPERTENSION DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/HYPERTENSION DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -411,7 +411,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/THYROID DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/THYROID DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -421,7 +421,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/PCOD DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/PCOD DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -431,7 +431,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/ANEMIA DIET(1).pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/ANEMIA DIET(1).pdf" download">Download</a>';
   }
   if (
     condition === "Overweight" &&
@@ -441,7 +441,7 @@ function diseaseFoodAndBMI() {
     newDiv3.classList.add("div3");
     chart.append(newDiv3);
     newDiv3.innerHTML =
-      '<a class="diet-btn" href="/Charts/WEIGHTLOSS-N.pdf" download">Download</a>';
+      '<a class="diet-btn" href="Charts/WEIGHTLOSS-N.pdf" download">Download</a>';
   }
 }
 
